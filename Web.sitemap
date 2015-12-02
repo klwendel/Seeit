@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="" roles="*">
+      <siteMapNode url="~/Default.aspx" title="Home"  description="Home Page" roles="*">
+      </siteMapNode>
+      <siteMapNode url="" title="Posts"  description="Posts" roles="*">
+        <siteMapNode url="~/ViewNewPosts.aspx" title="New Posts"  description="View New Posts" roles="*">
+        </siteMapNode>
+        <siteMapNode url="~/ViewPostsByCategory.aspx" title="Posts By Category"  description="View Posts By Category" roles="*">
+        </siteMapNode>
+        <siteMapNode url="~/LoggedUsers/ViewMyPosts.aspx" title="My Posts" description="View My Posts">
+        </siteMapNode>
+        <siteMapNode url="~/LoggedUsers/CreatePost.aspx" title="Create Post" description="Create Post">
+        </siteMapNode>
+        <siteMapNode url="~/LoggedAdmin/ViewRemovedPosts.aspx" title="Removed Posts"  description="View Removed Posts">
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Categories"  description="Categories" roles="StandardUser,Administrator">
+        <siteMapNode url="~/LoggedUsers/CreateCategory.aspx" title="Create Category" description="Create Category">
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Favorites" description="Favorites" roles="StandardUser,Administrator">
+        <siteMapNode url="~/LoggedUsers/ViewMyFavorites.aspx" title="My Favorites" description="My Favorites">
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="~/About.aspx" title="About"  description="About Us" roles="*"></siteMapNode>
+    </siteMapNode>
+</siteMap>
